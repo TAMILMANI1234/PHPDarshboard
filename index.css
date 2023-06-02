@@ -1,0 +1,60 @@
+ .holder{
+    width: 99%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ 
+ .tab_data{
+   height: 500px;
+   overflow: auto;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .results1 tr[visible='false'],
+.no-result{
+  display:none;
+}
+.results1 tr[visible='true']{
+   display:table-row;
+ }
+ .counter{
+   padding:8px; 
+   color:#ccc;
+
+ }
+ .chart1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .chart1 input[type=number]{
+    width: 50%;
+ }
+ footer{
+  background: #111;
+  color: #fff;
+  text-align: center;
+ }
+ .socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: aqua;
+}
